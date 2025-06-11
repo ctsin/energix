@@ -5,17 +5,15 @@ import ProcessSolutionsSec from "../home/ProcessSolutionsSec";
 import SolarEnergySec from "../home-two/SolarEnergySec";
 import CreativeTeam from "../home-two/CreativeTeam";
 import CompanyHistory from "./CompanyHistory";
-import TestimonialsSec from "../home/TestimonialsSec";
 const AboutMain = () => {
   return (
     <>
       <BreadCamb title="About Us" />
-      <WellComeToSolarSec /> 
+      <WellComeToSolarSec />
       <ProcessSolutionsSec propsClass="gap no-top" />
       <SolarEnergySec />
       <CreativeTeam bgImg={null} />
       <CompanyHistory />
-      <TestimonialsSec propsClass="" />
     </>
   );
 };

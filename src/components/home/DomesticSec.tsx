@@ -13,10 +13,10 @@ const DomesticSec = () => {
                 <i>
                   <DomesticSvgIcon />
                 </i>
-                <h3>Domestic Installation</h3>
+                <h3>Solar Power Equipments</h3>
                 <p>
-                  Solar PV, Battery Storage, Heat Recovery Ventilation Systems &
-                  EV Charging
+                  Solar Panels, Racks, Cables, Hybrid Inverters, Lithium-Iron
+                  Batteries, etc.
                 </p>
               </div>
             </div>
@@ -25,10 +25,11 @@ const DomesticSec = () => {
                 <i>
                   <DomesticCommercialIcon />
                 </i>
-                <h3>Commercial Installation</h3>
+                <h3>Electric Power Applications</h3>
                 <p>
-                  Solar PV, Battery Storage, Heat Recovery Ventilation Systems &
-                  EV Charging
+                  Lithiumion / Iron cells, modules, packs and solutions for
+                  Electric Cars, Electric Carts, Electric Scooters, Electric
+                  Bikes, Electric Forklifts, etc.
                 </p>
               </div>
             </div>

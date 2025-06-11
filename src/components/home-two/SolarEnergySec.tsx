@@ -23,9 +23,12 @@ const SolarEnergySec = () => {
       <section className="section-solar-energy gap">
         <div className="container">
           <div className="heading">
-            <p>Solutions of Solar Energy</p>
+            <p>WHAT WE DO</p>
             <div className="line"></div>
-            <h2>Produce Your Own Clean Save ourthe Environment</h2>
+            <h2>
+              We Support Your Projects from Supplier Identification to Final
+              Shipment
+            </h2>
           </div>
           <div className="row">
             <div className="col-xl-3 col-lg-4 ">
@@ -37,19 +40,19 @@ const SolarEnergySec = () => {
                 </div>
                 <div>
                   <a href="#">
-                    <h4>Battery Storage Solutions</h4>
+                    <h4>Factory Sourcing & Matchmaking</h4>
                   </a>
-                  <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
-                  </p>
                 </div>
               </div>
             </div>
             <div className="col-xl-6 col-lg-8">
               <div className="video two">
                 <figure>
-                  <Image alt="img" src={videoTwo} style={{ width: "100%", height: "auto" }}/>
+                  <Image
+                    alt="img"
+                    src={videoTwo}
+                    style={{ width: "100%", height: "auto" }}
+                  />
                 </figure>
                 <button
                   onClick={() => {
@@ -83,12 +86,8 @@ const SolarEnergySec = () => {
                 </div>
                 <div>
                   <a href="#">
-                    <h4>Commercial solar energy</h4>
+                    <h4>Factory Auditing & Verification</h4>
                   </a>
-                  <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
-                  </p>
                 </div>
               </div>
             </div>
@@ -101,12 +100,8 @@ const SolarEnergySec = () => {
                 </div>
                 <div>
                   <a href="#">
-                    <h4>High Return On Investment</h4>
+                    <h4>Sample & Order Coordination</h4>
                   </a>
-                  <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
-                  </p>
                 </div>
               </div>
             </div>
@@ -119,12 +114,8 @@ const SolarEnergySec = () => {
                 </div>
                 <div>
                   <a href="#">
-                    <h4>Boost Green Credentials</h4>
+                    <h4>Quality Control & Inspection</h4>
                   </a>
-                  <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
-                  </p>
                 </div>
               </div>
             </div>
@@ -137,12 +128,8 @@ const SolarEnergySec = () => {
                 </div>
                 <div>
                   <a href="#">
-                    <h4>Industrial Solar Energy</h4>
+                    <h4>Shipping & Logistics Support</h4>
                   </a>
-                  <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
-                  </p>
                 </div>
               </div>
             </div>
@@ -155,12 +142,8 @@ const SolarEnergySec = () => {
                 </div>
                 <div>
                   <a href="#">
-                    <h4>Scale With New Technologies</h4>
+                    <h4>OEM Branding Support (optional)</h4>
                   </a>
-                  <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
-                  </p>
                 </div>
               </div>
             </div>
@@ -180,7 +163,10 @@ const SolarEnergySec = () => {
                   </h6>
                 </div>
                 <div className="d-md-flex align-items-center mt-md-5">
-                  <button onClick={()=>setOpenLetterBox(!openLetterBox)} className="button newsbox">
+                  <button
+                    onClick={() => setOpenLetterBox(!openLetterBox)}
+                    className="button newsbox"
+                  >
                     Request a Quote
                   </button>
                   <div className="request-quote-info">
@@ -191,7 +177,7 @@ const SolarEnergySec = () => {
                     </div>
                     <div className="d-flex align-items-center mt-2">
                       <h4>Phone No:</h4>
-                      <a href="callto:01234525407">
+                      <a href="callto:+8618576775218">
                         <p>01234 525 407</p>
                       </a>
                     </div>
@@ -200,7 +186,11 @@ const SolarEnergySec = () => {
               </div>
               <div className="col-lg-5">
                 <div className="arista-square-img">
-                  <Image alt="arista-square-1" src={arista} style={{ width: "100%", height: "100%" }}/>
+                  <Image
+                    alt="arista-square-1"
+                    src={arista}
+                    style={{ width: "100%", height: "100%" }}
+                  />
                 </div>
               </div>
             </div>

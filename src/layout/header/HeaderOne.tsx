@@ -10,7 +10,7 @@ import LocationTwoIcon from "@/svg/LocationTwoIcon";
 const HeaderOne = () => {
   const { toggleSideMenu, toggleSearchBar,openLetterBox, setOpenLetterBox } = useGlobalContext();
  
-  return ( 
+  return (
     <>
       <header>
         <div className="top-bar">
@@ -18,35 +18,25 @@ const HeaderOne = () => {
             <div className="top-bar-text">
               <ul className="d-flex">
                 <li>
-                  <Link href="https://www.facebook.com/">
-                    <i className="fa-brands fa-facebook"></i>facebook
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://twitter.com/">
-                    <i className="fa-brands fa-twitter"></i>Twitter
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://www.instagram.com/">
-                    <i className="fa-brands fa-instagram"></i>instagram
+                  <Link href="https://www.linkedin.com/in/sunenergystorage/">
+                    <i className="fa-brands fa-linkedin"></i>Linkedin
                   </Link>
                 </li>
               </ul>
               <div className="d-flex top-bar-mail">
                 <div className="d-flex align-items-center  me-4">
                   <i>
-                    <EmailTwoIcon/>
+                    <EmailTwoIcon />
                   </i>
-                  <Link href="mailto:nfo@example.com">
-                    <p>info@example.com</p>
+                  <Link href="mailto:info@offgridsynergy.com">
+                    <p>info@offgridsynergy.com</p>
                   </Link>
                 </div>
                 <div className="d-flex align-items-center">
                   <i>
-                     <LocationTwoIcon/>
+                    <LocationTwoIcon />
                   </i>
-                  <p>12/7 new town, 245x Street, United State</p>
+                  <p>Hi-Tech Zone, Nanshan Dsictrict, Shenzhen, PRC</p>
                 </div>
               </div>
             </div>
@@ -56,7 +46,7 @@ const HeaderOne = () => {
           <div className="menu-bar menu-bar-en">
             <div className="logo">
               <Link href="/">
-                <LogoTwoIcon/>
+                <LogoTwoIcon />
               </Link>
             </div>
             <nav className="navbar">
@@ -91,7 +81,10 @@ const HeaderOne = () => {
               >
                 <SearchIcon />
               </button>
-              <button onClick={() => setOpenLetterBox(!openLetterBox)} className="header-one-btn newsbox button">
+              <button
+                onClick={() => setOpenLetterBox(!openLetterBox)}
+                className="header-one-btn newsbox button"
+              >
                 Request a Quote
               </button>
             </div>

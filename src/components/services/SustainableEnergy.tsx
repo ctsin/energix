@@ -12,7 +12,7 @@ const SustainableEnergy = () => {
           <div className="heading">
             <p>process and the solutions we can provide</p>
             <div className="line"></div>
-            <h2>Smart & sustainable energy consumption</h2>
+            <h2>Our Products Serve a Wide Range of Applications, including:</h2>
             <span>
               Powerful & intelligent energy storage solutions,helping you
               maximize your energy potential.
@@ -28,13 +28,11 @@ const SustainableEnergy = () => {
                 </div>
                 <div>
                   <Link href="#">
-                    <h2>Automatedenergy storage</h2>
+                    <h2>Energy Storage Equipments</h2>
                   </Link>
                   <p>
-                    leading renewable energy solutions provider that is sources
-                    are harnessed across the world. Present in 18 countries
-                    across Asia, Australia, Europe Africa and the Americas,
-                    Veztaz is powering.
+                    Solar Panels, Racks, Cables, Hybrid Inverters, Lithium-Iron
+                    Batteries, etc.
                   </p>
                 </div>
               </div>
@@ -64,13 +62,12 @@ const SustainableEnergy = () => {
                 </div>
                 <div>
                   <Link href="#">
-                    <h2>potential of your renewables</h2>
+                    <h2>Electric Power Applications</h2>
                   </Link>
                   <p>
-                    leading renewable energy solutions provider that is sources
-                    are harnessed across the world. Present in 18 countries
-                    across Asia, Australia, Europe Africa and the Americas,
-                    Veztaz is powering.
+                    Lithium cells, modules, packs and solutions for Electric
+                    Cars, Electric Scooters, Electric Carts, Electric Bikes,
+                    Electric Forklifts, etc.
                   </p>
                 </div>
               </div>

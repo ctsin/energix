@@ -18,15 +18,15 @@ const WhyUseEnergix = ({bgImg,propsClass}:propsType) => {
     <>
       <section
         className={`energix gap ${propsClass}`}
-        style={{ backgroundImage: `url(${bgImg ? bgImg.src : ''})` }}
+        style={{ backgroundImage: `url(${bgImg ? bgImg.src : ""})` }}
       >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-5">
               <div className="heading">
-                <p>Worldwithout Waste</p>
+                <p>RENEWABLE ENERGY</p>
                 <div className="line"></div>
-                <h2>Why Use Energix?</h2>
+                <h2>Why Work with Us?</h2>
               </div>
               <div className="use-energix d-flex">
                 <div className="use-energix-icon">
@@ -35,11 +35,8 @@ const WhyUseEnergix = ({bgImg,propsClass}:propsType) => {
                   </i>
                 </div>
                 <div>
-                  <h4>Save Time</h4>
-                  <h6>
-                    Get up to 3 quotes from our selected suppliers by filling in
-                    only 1 form
-                  </h6>
+                  <h4>Shenzhen-based</h4>
+                  <h6>Direct access to top-tier factories in China</h6>
                 </div>
               </div>
               <div className="use-energix d-flex">
@@ -49,10 +46,9 @@ const WhyUseEnergix = ({bgImg,propsClass}:propsType) => {
                   </i>
                 </div>
                 <div>
-                  <h4>Save Money</h4>
+                  <h4>Technical Know-How</h4>
                   <h6>
-                    Get up to 3 quotes from our selected suppliers by filling in
-                    only 1 form
+                    We understand the specs, certifications, and use cases
                   </h6>
                 </div>
               </div>
@@ -63,18 +59,19 @@ const WhyUseEnergix = ({bgImg,propsClass}:propsType) => {
                   </i>
                 </div>
                 <div>
-                  <h4>Free and No Obligation</h4>
-                  <h6>
-                    Get up to 3 quotes from our selected suppliers by filling in
-                    only 1 form
-                  </h6>
+                  <h4>Flexible & Transparent</h4>
+                  <h6>We work on your terms – no hidden costs</h6>
                 </div>
               </div>
             </div>
             <div className="col-xl-7">
               <div className="video">
                 <figure>
-                  <Image alt="img" src={videoIcon} style={{ width: "100%", height: "auto" }}/>
+                  <Image
+                    alt="img"
+                    src={videoIcon}
+                    style={{ width: "100%", height: "auto" }}
+                  />
                 </figure>
 
                 <button
@@ -102,11 +99,13 @@ const WhyUseEnergix = ({bgImg,propsClass}:propsType) => {
               <div className="d-sm-flex mt-4">
                 <div className="call-for">
                   <p>Call For a Quote:</p>
-                  <a href="callto:+921234866731">+92 1234 866 731</a>
+                  <a href="callto:+86 18576775218">WhatsApp +86 18576775218</a>
                 </div>
                 <div className="call-for mail-for">
                   <p>Email Address:</p>
-                  <a href="mailto:username@domain.com">username@domain.com</a>
+                  <a href="mailto:info@offgridsynergy.com">
+                    info@offgridsynergy.com
+                  </a>
                 </div>
               </div>
             </div>
@@ -116,7 +115,7 @@ const WhyUseEnergix = ({bgImg,propsClass}:propsType) => {
       <ModalVideo
         channel="youtube"
         isOpen={isOpen}
-        videoId="xKxrkht7CpY"
+        videoId="UVf2Yw7uFoE"
         onClose={() => {
           openVideoModal();
         }}

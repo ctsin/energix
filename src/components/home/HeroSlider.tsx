@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
 import "swiper/css/bundle";
-import sliderImg1 from "../../../public/assets/img/featured-area.jpg";
-import sliderImg2 from "../../../public/assets/img/featured-area-2.jpg";
-import sliderImg3 from "../../../public/assets/img/featured-area-3.jpg";
-import sliderImg4 from "../../../public/assets/img/featured-area-4.jpg";
+import sliderImg1 from "../../../public/assets/img/1.jpg";
+import sliderImg2 from "../../../public/assets/img/2.jpg";
+import sliderImg3 from "../../../public/assets/img/3.jpg";
+import sliderImg4 from "../../../public/assets/img/4.jpg";
 import useGlobalContext from "@/hooks/use-context";
 const HeroSlider = () => {
   const { openLetterBox, setOpenLetterBox } = useGlobalContext();
@@ -19,30 +19,31 @@ const HeroSlider = () => {
     {
       id: 1,
       bgImg: sliderImg1,
-      title: "installation and maintenance of solar panels",
+      title: "Your Trusted Sourcing Partner for Advanced Energy Products",
       subTitle:
-        "Practical renewable energy technology thatreduces costs and helps the environment",
+        "We are not just a sourcing agent — we are your trusted supply chain partner, helping you access reliable manufacturers, optimize solutions, and ensure smooth delivery from China to the world.",
     },
     {
       id: 2,
       bgImg: sliderImg2,
-      title: "energize society using sustainable & reliable",
+      title: "Sourcing Made Smarter in China's New Energy Industry",
       subTitle:
-        "Practical renewable energy technology thatreduces costs and helps the environment",
+        "We provide sourcing and OEM/ODM support for clients who require specific brands or customized configurations.",
     },
     {
       id: 3,
       bgImg: sliderImg3,
-      title: "shapehero img Renewable Energy Solutions Deliver",
+      title:
+        "Independent Sourcing Agent – Specialized in Energy Storage & Inverter Solutions",
       subTitle:
-        "Practical renewable energy technology thatreduces costs and helps the environment",
+        "We help energy companies, system integrators, and distributors source the right products — at the right time, price, and quality — from China’s top-tier factories.",
     },
     {
       id: 4,
       bgImg: sliderImg4,
-      title: "leading supplier of sloar materials for contractors",
+      title: "Professional Supplier Coordination on Behalf of Clients",
       subTitle:
-        "Practical renewable energy technology thatreduces costs and helps the environment",
+        "We support your projects from supplier identification to final shipment, helping clients coordinate with trusted factories, manage production, ensure quality, and handle international logistics.",
     },
   ];
 
@@ -76,7 +77,7 @@ const HeroSlider = () => {
                             <div className="featured-area-one">
                               <h2>{item?.title}</h2>
                               <h6>{item?.subTitle}</h6>
-                              
+
                               <button
                                 type="button"
                                 onClick={() => setOpenLetterBox(!openLetterBox)}
@@ -92,7 +93,7 @@ const HeroSlider = () => {
                   )}
                 </SwiperSlide>
               );
-            })} 
+            })}
           </Swiper>
           {/* arrow  */}
           <div className="slider-nav en-owl-btn disabled">

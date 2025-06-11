@@ -21,21 +21,17 @@ const navMenuData: MenuItem[] = [
   {
     id: 2,
     hasDropdown: false,
-    label: "About",
+    label: "About Us",
     link: "/about",
   },
   {
     id: 3,
-    label: "Pages",
+    label: "Products Focus",
     link: "#",
     hasDropdown: true,
     subMenu: [
-      { id: 9, label: "our projects", link: "/our-projects" },
-      { id: 10, label: "projects details", link: "/projects-details" },
-      { id: 11, label: "team details", link: "/team-details" },
-      { id: 12, label: "pricing plan", link: "/pricing-plan" },
-      { id: 13, label: "404 error", link: "/404-error" },
-    
+      { id: 9, label: "Solar Power Equipments", link: "/our-projects" },
+      { id: 10, label: "Electric Power Equipments", link: "/projects-details" },
     ],
   },
   {
@@ -43,16 +39,6 @@ const navMenuData: MenuItem[] = [
     hasDropdown: false,
     label: "Services",
     link: "/services",
-  },
-  {
-    id: 5,
-    label: "News",
-    link: "/",
-    hasDropdown: true,
-    subMenu: [
-      { id: 14, label: "our blog", link: "/our-blog" },
-      { id: 15, label: "blog details", link: "/blog-details" },
-    ],
   },
   {
     id: 6,

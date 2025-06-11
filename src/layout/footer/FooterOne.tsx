@@ -6,6 +6,7 @@ import PhoneIcon from "@/svg/PhoneIcon";
 import LocationIcon from "@/svg/LocationIcon";
 import EmailIcon from "@/svg/EmailIcon";
 const FooterOne = () => {
+  const year = new Date().getFullYear();
   return (
     <>
       <footer
@@ -21,18 +22,8 @@ const FooterOne = () => {
                 </Link>
                 <ul className="d-flex social-media">
                   <li>
-                    <Link href="https://www.facebook.com/">
-                      <i className="fa-brands fa-facebook"></i>facebook
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="https://twitter.com/">
-                      <i className="fa-brands fa-twitter"></i>Twitter
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="https://www.instagram.com/">
-                      <i className="fa-brands fa-instagram"></i>instagram
+                    <Link href="https://www.linkedin.com/in/sunenergystorage/">
+                      <i className="fa-brands fa-linkedin"></i>Linkedin
                     </Link>
                   </li>
                 </ul>
@@ -40,28 +31,18 @@ const FooterOne = () => {
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="about-energix">
-                <h5>About Energix</h5>
+                <h5>About OffgridSynergy</h5>
                 <p>
-                  Solar energy’s exceptional synergies with energy storage,
-                  electric vehicles and smart grids means the industry works on
-                  the frontline of technology and system change to deliver.
+                  With over 12 years of experience in supply chain and
+                  CM(Contract Manufacturer) management, and over 7 years of
+                  hands-on expertise in lithium battery and energy storage
+                  industries, we have a deep understanding of the entire value
+                  chain — from raw material sourcing, production, and inventory
+                  control, to order fulfillment, logistics coordination, on-site
+                  commissioning, and after-sales support. Let’s work together to
+                  build efficient, reliable, and scalable supply chains for the
+                  energy transition.
                 </p>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="about-energix">
-                <h5>Subscribe to our newsletter.</h5>
-                <p>Subscribe email and get recent news and updates</p>
-                <form>
-                  <input
-                    type="text"
-                    name="email"
-                    placeholder="Enter your email address..."
-                  />
-                  <button className="button">
-                    <i className="fa-solid fa-paper-plane"></i>
-                  </button>
-                </form>
               </div>
             </div>
           </div>
@@ -75,8 +56,8 @@ const FooterOne = () => {
                 </div>
                 <div>
                   <h4>Phone No:</h4>
-                  <Link href="callto:01234525407">
-                    <p>01234 525 407 - 01234 525 407</p>
+                  <Link href="callto:+8618576775218">
+                    <p>WhatsApp: +86 18576775218</p>
                   </Link>
                 </div>
               </div>
@@ -89,7 +70,7 @@ const FooterOne = () => {
                   </i>
                 </div>
                 <div>
-                  <p>12/7 new town, 245x Town 1214 Street, United State</p>
+                  <p>Hi-Tech Zone, Nanshan District, Shenzhen, PRC</p>
                 </div>
               </div>
             </div>
@@ -102,15 +83,15 @@ const FooterOne = () => {
                 </div>
                 <div>
                   <h4>Email Address:</h4>
-                  <Link href="mailto:username@domainname.com">
-                    <p>username@domainname.com</p>
+                  <Link href="mailto:info@offgridsynergy.com">
+                    <p>info@offgridsynergy.com</p>
                   </Link>
                 </div>
               </div>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>Ⓒ Copyright Energix 2024. All Right Reserved.</p>
+            <p>Ⓒ Copyright OffgridSynergy {year}. All Right Reserved.</p>
             <ul>
               <li>
                 <Link href="#">Privacy Policy</Link>

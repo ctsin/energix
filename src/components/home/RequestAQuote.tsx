@@ -19,15 +19,19 @@ const RequestAQuote = ({noTop,quoteClass}:propsClass) => {
                 <div className="heading">
                   <p>Request A Quote</p>
                   <div className="line"></div>
-                  <h2>talk about how we can help you reduce your energy</h2>
+                  <h2>
+                    OffgridSynergy specializes in providing high-quality
+                    sourcing services for renewable energy and power components.
+                  </h2>
                   <h6>
-                    costs and successfully manage your carbon emissions with
-                    investment free solar technologies.
+                    committed to delivering reliable, cost-effective, and
+                    technically supported sourcing solutions to international
+                    brands, system integrators, and distributors.
                   </h6>
                 </div>
               </div>
               <div className="col-lg-6">
-                <HomePageContactForm/>
+                <HomePageContactForm />
               </div>
             </div>
           </div>

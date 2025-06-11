@@ -99,8 +99,8 @@ const MobileMenu = () => {
                   ></path>
                 </svg>
               </i>
-              <Link href="callto:01234525407">
-                <p>01234 525 407 - 01234 525 407</p>
+              <Link href="callto:+8618576775218">
+                <p>WhatsApp: +86 18576775218</p>
               </Link>
             </div>
           </div>
@@ -132,8 +132,8 @@ const MobileMenu = () => {
                   ></path>
                 </svg>
               </i>
-              <Link href="mailto:username@domainname.com">
-                <p>username@domainname.com</p>
+              <Link href="mailto:info@offgridsynergy.com">
+                <p>info@offgridsynergy.com</p>
               </Link>
             </div>
           </div>

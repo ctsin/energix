@@ -96,8 +96,8 @@ const ExperienceSec = () => {
                 </div>
                 <div>
                   <h4>Phone No:</h4>
-                  <Link href="callto:01234525407">
-                    <p>01234 525 407 - 01234 525 407</p>
+                  <Link href="callto:+8618576775218">
+                    <p>WhatsApp: +86 18576775218</p>
                   </Link>
                 </div>
               </div>
@@ -110,7 +110,7 @@ const ExperienceSec = () => {
                   </i>
                 </div>
                 <div>
-                  <p>12/7 new town, 245x Town 1214 Street, United State</p>
+                  <p>Hi-Tech Zone, Nanshan District, Shenzhen, PRC</p>
                 </div>
               </div>
             </div>
@@ -123,8 +123,8 @@ const ExperienceSec = () => {
                 </div>
                 <div>
                   <h4>Email Address:</h4>
-                  <Link href="mailto:username@domainname.com">
-                    <p>username@domainname.com</p>
+                  <Link href="mailto:info@offgridsynergy.com">
+                    <p>info@offgridsynergy.com</p>
                   </Link>
                 </div>
               </div>

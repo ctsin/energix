@@ -19,7 +19,7 @@ const FooterTwo = () => {
             <div className="col-xl-4 col-md-6">
               <div className="logo">
                 <Link href="/">
-                  <LogoIconThree/>
+                  <LogoIconThree />
                 </Link>
                 <p>
                   Solar energy’s exceptional synergies with energy storage,
@@ -52,26 +52,26 @@ const FooterTwo = () => {
                 <div className="d-flex align-items-center top-bar-mail">
                   <div className="d-flex align-items-center">
                     <i>
-                     <PhoneTwoIcon/>
+                      <PhoneTwoIcon />
                     </i>
-                    <Link href="callto:01234525407">
-                      <p>01234 525 407 - 01234 525 407</p>
+                    <Link href="callto:+8618576775218">
+                      <p>WhatsApp: +86 18576775218</p>
                     </Link>
                   </div>
                 </div>
                 <div className="d-flex align-items-center top-bar-mail">
                   <div className="d-flex align-items-center">
                     <i>
-                      <EmailTwoIcon/>
+                      <EmailTwoIcon />
                     </i>
-                    <Link href="mailto:username@domainname.com">
-                      <p>username@domainname.com</p>
+                    <Link href="mailto:info@offgridsynergy.com">
+                      <p>info@offgridsynergy.com</p>
                     </Link>
                   </div>
                 </div>
                 <div className="d-flex top-bar-mail align-items-center mb-0">
                   <i>
-                    <LocationTwoIcon/>
+                    <LocationTwoIcon />
                   </i>
                   <p>12/7 new town, 245x Street, United State</p>
                 </div>

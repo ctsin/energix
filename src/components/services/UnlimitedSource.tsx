@@ -14,25 +14,32 @@ const UnlimitedSource = () => {
       <section className="section-solar-energy gap">
         <div className="container">
           <div className="heading">
-            <p>Solutions of Solar Energy</p>
+            <p>What We Do</p>
             <div className="line"></div>
-            <h2>Unlimited source of energy</h2>
+            <h2>
+              We Support Your Projects from Supplier Identification to Final
+              Shipment
+            </h2>
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div className="use-energix two">
                 <div className="use-energix-icon">
                   <i>
-                    <BattaryIconTwo/>
+                    <BattaryIconTwo />
                   </i>
                 </div>
                 <div>
                   <a href="#">
-                    <h4>Battery Storage Solutions</h4>
+                    <h4>Factory Sourcing & Matchmaking</h4>
                   </a>
                   <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
+                    Identify qualified manufacturers based on your product
+                    specs, certifications, and pricing targets.
+                  </p>
+                  <p>
+                    Provide a shortlist of vetted suppliers with focus on
+                    long-term reliability over lowest cost.
                   </p>
                 </div>
               </div>
@@ -41,16 +48,20 @@ const UnlimitedSource = () => {
               <div className="use-energix two">
                 <div className="use-energix-icon">
                   <i>
-                     <CommercialSolarEnergyIcon/>
+                    <CommercialSolarEnergyIcon />
                   </i>
                 </div>
                 <div>
                   <a href="#">
-                    <h4>Commercial solar energy</h4>
+                    <h4>Factory Auditing & Verification</h4>
                   </a>
                   <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
+                    Arrange on-site or third-party audits to verify factory
+                    capacity, compliance, and quality systems.
+                  </p>
+                  <p>
+                    Deliver professional audit reports and insights to help
+                    reduce sourcing risks.
                   </p>
                 </div>
               </div>
@@ -59,16 +70,20 @@ const UnlimitedSource = () => {
               <div className="use-energix two">
                 <div className="use-energix-icon">
                   <i>
-                    <InvestmentIcon/>
+                    <InvestmentIcon />
                   </i>
                 </div>
                 <div>
                   <a href="#">
-                    <h4>High Return On Investment</h4>
+                    <h4>Sample & Order Coordination</h4>
                   </a>
                   <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
+                    Coordinate sample development and align all technical,
+                    packaging, and branding details.
+                  </p>
+                  <p>
+                    Ensure smooth communication and transition from sampling to
+                    mass production.
                   </p>
                 </div>
               </div>
@@ -77,16 +92,20 @@ const UnlimitedSource = () => {
               <div className="use-energix two mt-xl-5">
                 <div className="use-energix-icon">
                   <i>
-                      <CredentialsIcon/>
+                    <CredentialsIcon />
                   </i>
                 </div>
                 <div>
                   <a href="#">
-                    <h4>Boost Green Credentials</h4>
+                    <h4>Quality Control & Inspection</h4>
                   </a>
                   <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
+                    Provide in-production or pre-shipment inspection with
+                    functional and visual checks.
+                  </p>
+                  <p>
+                    Support defect handling and offer bilingual QC reports when
+                    needed.
                   </p>
                 </div>
               </div>
@@ -95,16 +114,20 @@ const UnlimitedSource = () => {
               <div className="use-energix two mt-xl-5">
                 <div className="use-energix-icon">
                   <i>
-                   <SolarEnergyIcon/>
+                    <SolarEnergyIcon />
                   </i>
                 </div>
                 <div>
                   <a href="#">
-                    <h4>Industrial Solar Energy</h4>
+                    <h4>Shipping & Logistics Support</h4>
                   </a>
                   <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
+                    Assist with customs clearance, international shipping, and
+                    logistics planning.
+                  </p>
+                  <p>
+                    Provide all necessary export documents and optimize delivery
+                    solutions.
                   </p>
                 </div>
               </div>
@@ -113,16 +136,20 @@ const UnlimitedSource = () => {
               <div className="use-energix two mt-xl-5 mb-0">
                 <div className="use-energix-icon">
                   <i>
-                     <TechnologiesIcon/>
+                    <TechnologiesIcon />
                   </i>
                 </div>
                 <div>
                   <a href="#">
-                    <h4>Scale With New Technologies</h4>
+                    <h4>OEM Branding Support (optional)</h4>
                   </a>
                   <p>
-                    We fully utilise the latest corporate renewable energy
-                    technology to generate significant energy.
+                    Offer logo printing, packaging design, and custom manuals
+                    for private label products.
+                  </p>
+                  <p>
+                    Coordinate low-MOQ branded production to support emerging
+                    brands.
                   </p>
                 </div>
               </div>

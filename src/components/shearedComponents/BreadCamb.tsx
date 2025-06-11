@@ -15,8 +15,8 @@ const BreadCamb = ({ title }: propsType) => {
           <div className="banner-text">
             <h2>{title}</h2>
             <p>
-              Practical renewable energy technology thatreduces costs and helps
-              the environment
+              Your Trusted Sourcing Partner for Advanced Renewable Energy
+              Products
             </p>
             <ul className="page-breadcrumb">
               <li>

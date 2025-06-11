@@ -160,12 +160,10 @@ figure {
     justify-content: space-between;
 }
 .top-bar-text a {
-    text-transform: capitalize;
     font-weight: bold;
 }
 .top-bar-text p, .top-bar-text a {
     font-weight: 400;
-    text-transform: lowercase;
     color: white;
 }
 .top-bar-text a p:hover{
@@ -344,7 +342,7 @@ button.header-button {
     margin-left: 20px;
 }
 .logo {
-    margin-top: -12px;
+    /* margin-top: -12px; */
 }
 /* 3. hero-section */
 .slider-hero {

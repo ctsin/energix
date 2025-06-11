@@ -8,7 +8,7 @@ import WindKinetic from "@/svg/WindKinetic";
 import React from "react";
 import Image from "next/image";
 // import images
-import hemsworth from "../../../public/assets/img/chris-hemsworth.png";
+import sun from "../../../public/assets/img/signature.jpg";
 import battaryStorage from "../../../public/assets/img/battery-storage-1.jpg";
 import battaryStorage2 from "../../../public/assets/img/battery-storage-2.jpg";
 import battaryStorage3 from "../../../public/assets/img/battery-storage-3.jpg";
@@ -24,27 +24,25 @@ const SaveEnegryGallarySec = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="heading">
-                <p>Welcome to Solar Power Save Energy</p>
+                <p>WELCOME TO OFFGRIDSYNERGY</p>
                 <div className="line"></div>
-                <h2>Taking the effort out of business energy</h2>
+                <h2>Powering a cleaner tomorrow, today</h2>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="renewable-group">
                 <p>
-                  leading renewable energy solutions provider that is
-                  revolutionising and redefining the way sustainable energy
-                  sources are harnessed across the world. Present in 18
-                  countries across Asia, Australia, Europe Africa and the
-                  Americas, Veztaz is powering.
+                  OffgridSynergy – Your independent sourcing partner for energy
+                  storage, solar inverter, and electric power battery
+                  technologies.
                 </p>
                 <Image
-                  alt="chris-hemsworth"
-                  src={hemsworth}
+                  alt="John Sun - Managing Director of OffgridSynergy"
+                  src={sun}
                   style={{ width: "auto", height: "auto" }}
                 />
-                <h3>Alines Jannie</h3>
-                <h6>Director of Renewable Group</h6>
+                <h3>John Sun</h3>
+                <h6>Managing Director of OffgridSynergy</h6>
               </div>
             </div>
           </div>
@@ -98,7 +96,7 @@ const SaveEnegryGallarySec = () => {
                     </i>
                     <div className="battery-storage-text">
                       <Link href="/services">
-                        <h3>Wind Kinetic</h3>
+                        <h3>Electric Power</h3>
                       </Link>
                       <p>Protecting our environment.</p>
                     </div>
@@ -116,7 +114,7 @@ const SaveEnegryGallarySec = () => {
                 <i>
                   <RenewAbleEnergy />
                 </i>
-                <div className="battery-storage-text"> 
+                <div className="battery-storage-text">
                   <Link href="/services">
                     <h3>Renewable Energy</h3>
                   </Link>
@@ -130,34 +128,28 @@ const SaveEnegryGallarySec = () => {
               <i>
                 <NetWorkIcon />
               </i>
-              <div className="d-flex align-items-center justify-content-center">
-                <h2 className="timer count-title count-number">
-                  <CountUpContent number={10000000} text="" />
-                </h2>
-                <span>+</span>
-              </div>
-              <p>Instances of fault activity captured on LV networks</p>
+              <p style={{ marginTop: "2em" }}>
+                Delivering carefully sourced, high-quality energy components
+                with verified supplier compliance.
+              </p>
             </div>
             <div className="col-lg-4 col-md-6">
               <i>
                 <PantographsIcon />
               </i>
-              <h2 className="timer count-title count-number">
-                <CountUpContent number={3500000} text="" />
-              </h2>
-              <p>Train pantographs inspected annually</p>
+              <p style={{ marginTop: "2em" }}>
+                Providing transparent supply chain management for timely and
+                efficient product delivery.
+              </p>
             </div>
             <div className="col-lg-4 col-md-6">
               <i>
                 <AnalysedIcon />
               </i>
-              <div className="d-flex align-items-center justify-content-center">
-                <h2 className="timer count-title count-number">
-                  <CountUpContent number={20000000} text="" />
-                </h2>
-                <span>+</span>
-              </div>
-              <p>Hours of LV circuit load profile data captured and analysed</p>
+              <p style={{ marginTop: "2em" }}>
+                Leveraging comprehensive market data and analysis to optimize
+                procurement strategies and reduce costs.
+              </p>
             </div>
           </div>
         </div>

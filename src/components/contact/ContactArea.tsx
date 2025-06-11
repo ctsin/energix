@@ -18,7 +18,7 @@ const ContactArea = () => {
           </div>
           <div className="row">
             <div className="col-lg-8">
-               <ContactForm/>
+              <ContactForm />
             </div>
             <div className="col-lg-4">
               <div className="contact-information">
@@ -27,36 +27,36 @@ const ContactArea = () => {
               <div className="contact-info contact-information">
                 <div>
                   <i>
-                     <PhoneIcon/>
+                    <PhoneIcon />
                   </i>
                 </div>
                 <div>
                   <h4>Phone No:</h4>
-                  <a href="callto:01234525407">
-                    <p>01234 525 407 - 01234 525 407</p>
+                  <a href="callto:+8618576775218">
+                    <p>WhatsApp: +86 18576775218</p>
                   </a>
                 </div>
               </div>
               <div className="contact-info contact-information">
                 <div>
                   <i>
-                     <LocationIcon/>
+                    <LocationIcon />
                   </i>
                 </div>
                 <div>
-                  <p>12/7 new town, 245x Town 1214 Street, United State</p>
+                  <p>Hi-Tech Zone, Nanshan District, Shenzhen, PRC</p>
                 </div>
               </div>
               <div className="contact-info contact-information">
                 <div>
                   <i>
-                     <EmailIcon/>
+                    <EmailIcon />
                   </i>
                 </div>
                 <div>
                   <h4>Email Address:</h4>
-                  <a href="mailto:username@domainname.com">
-                    <p>username@domainname.com</p>
+                  <a href="mailto:info@offgridsynergy.com">
+                    <p>info@offgridsynergy.com</p>
                   </a>
                 </div>
               </div>

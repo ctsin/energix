@@ -12,17 +12,18 @@ const SolarPV = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="heading">
-                <h2>Is Solar PV worth it in 2023?</h2>
+                <h2>
+                  Which Business Model Best Aligns With Your Local Sourcing
+                  Strategy? Let’s Discuss.
+                </h2>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="renewable-group">
                 <p>
-                  leading renewable energy solutions provider that is
-                  revolutionising and redefining the way sustainable energy
-                  sources are harnessed across the world. Present in 18
-                  countries across Asia, Australia, Europe Africa and the
-                  Americas, Veztaz is powering.
+                  OffgridSynergy – Your independent sourcing partner for energy
+                  storage, solar inverter, and electric power battery
+                  technologies.{" "}
                 </p>
               </div>
             </div>
@@ -55,7 +56,7 @@ const SolarPV = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="solar-pv">
                 <i>
-                  <CommercialSolarEnergyTwoIcon/>
+                  <CommercialSolarEnergyTwoIcon />
                 </i>
                 <h4>Commercial solar energy</h4>
                 <div className="team-info">
@@ -79,7 +80,7 @@ const SolarPV = () => {
             <div className="col-xl-4 col-lg-6">
               <div className="solar-pv">
                 <i>
-                  <IndustrialSolarEnergy/>
+                  <IndustrialSolarEnergy />
                 </i>
                 <h4>Industrial solar energy</h4>
                 <div className="team-info">
