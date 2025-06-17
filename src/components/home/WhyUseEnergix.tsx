@@ -98,8 +98,8 @@ const WhyUseEnergix = ({bgImg,propsClass}:propsType) => {
               </div>
               <div className="d-sm-flex mt-4">
                 <div className="call-for">
-                  <p>Call For a Quote:</p>
-                  <a href="callto:+86 18576775218">WhatsApp +86 18576775218</a>
+                  <p>WhatsApp</p>
+                  <a href="callto:+86 18576775218">+86 18576775218</a>
                 </div>
                 <div className="call-for mail-for">
                   <p>Email Address:</p>

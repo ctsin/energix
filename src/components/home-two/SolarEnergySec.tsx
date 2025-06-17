@@ -8,6 +8,7 @@ import TechnologiesIcon from "@/svg/TechnologiesIcon";
 import PhoneIcon from "@/svg/PhoneIcon";
 import arista from "../../../public/assets/img/arista-square-1.png";
 import videoTwo from "../../../public/assets/img/video-2.jpg";
+import WhyWorkWithUs3 from "../../../public/assets/img/WhyWorkWithUs-3.jpg";
 import ModalVideo from "react-modal-video";
 import BattaryIconTwo from "@/svg/BattaryIconTwo";
 import InvestmentIcon from "@/svg/InvestmentIcon";
@@ -50,7 +51,7 @@ const SolarEnergySec = () => {
                 <figure>
                   <Image
                     alt="img"
-                    src={videoTwo}
+                    src={WhyWorkWithUs3}
                     style={{ width: "100%", height: "auto" }}
                   />
                 </figure>
@@ -176,9 +177,9 @@ const SolarEnergySec = () => {
                       </i>
                     </div>
                     <div className="d-flex align-items-center mt-2">
-                      <h4>Phone No:</h4>
+                      <h4>WhatsApp:</h4>
                       <a href="callto:+8618576775218">
-                        <p>01234 525 407</p>
+                        <p>+86 185 76775218</p>
                       </a>
                     </div>
                   </div>

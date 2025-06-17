@@ -248,7 +248,6 @@ figure {
     top: 100%;
     transform: translatex(24px);
     left: 0;
-    width: 250px;
     background-color: #fff;
     box-shadow: 0px 10px 10px 3px hsl(0deg 0% 0% / 16%);
     z-index: 111;
@@ -272,6 +271,8 @@ figure {
     position: relative;
     text-transform: capitalize;
     color: #000;
+    white-space: nowrap;
+
 }
 .navbar-links li.navbar-dropdown .dropdown li:nth-child(even) a {
     background-color: #ebebeb;
@@ -360,7 +361,7 @@ button.header-button {
 .featured-area-one h2 {
     color: white;
     font-weight: bold;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     padding-bottom: 10px;
     width: 90%;
 }
@@ -533,7 +534,6 @@ button.button {
 }
 .heading h2 {
     font-weight: 800;
-    text-transform: capitalize;
     font-size: 56px;
     line-height: 66px;
     padding-bottom: 25px;

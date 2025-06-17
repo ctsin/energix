@@ -27,10 +27,9 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
   }, []);
 
   return (
-    <> 
-     
+    <>
       <div className={`${isLoading ? "" : "page-loaded"}`}>
-        <Preloader/>
+        <Preloader />
         {(() => {
           switch (pathName) {
             case "/home-two":
@@ -40,14 +39,7 @@ const Wrapper: React.FC<WrapperProps> = ({ children }) => {
           }
         })()}
         {children}
-        {(() => {
-          switch (pathName) {
-            case "/":
-              return <FooterOne />;
-            default:
-              return <FooterTwo />;
-          }
-        })()}
+        <FooterOne />
       </div>
       <BacktoTop />
     </>

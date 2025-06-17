@@ -1,11 +1,13 @@
 import React from "react";
-import directorImg from "../../../public/assets/img/signature.jpg";
+import directorImg from "../../../public/assets/img/signature.png";
 import about1 from "../../../public/assets/img/about-1.jpg";
 import about2 from "../../../public/assets/img/about-2.jpg";
 import Image from "next/image";
 import ExperienceTwoIcon from "@/svg/ExperienceTwoIcon";
 import CountUpContent from "@/elements/counter/CountUpContent";
 const WellComeToSolarSec = () => {
+  const width = 200;
+  const height = (width / 850) * 467;
   return (
     <>
       <section className="gap">
@@ -15,36 +17,25 @@ const WellComeToSolarSec = () => {
               <div className="heading">
                 <p>Welcome to OffgridSynergy</p>
                 <div className="line"></div>
-                <h2>OffgridSynergy</h2>
+                <h2>Global Collaboration, Local Insight</h2>
               </div>
               <div className="renewable-group w-100">
                 <p>
                   Based in Shenzhen, China — a global sourcing hub adjacent to
                   Hong Kong, Guangzhou, and Dongguan — We specializes in
                   providing high-quality sourcing services for renewable energy
-                  components. We focus on hybrid inverters, and lithium
-                  batteries (cells, modules, packs and complete energy storage
-                  systems).
+                  components.
                 </p>
                 <p>
                   We are not just a sourcing agent — we are your trusted supply
                   chain partner, helping you access reliable manufacturers,
                   optimize solutions, and ensure smooth delivery from China to
-                  the world. Our products serve a wide range of applications,
-                  including: Residential energy storage solutions Small and
-                  medium commercial & industrial energy storage Large-scale
-                  industrial energy storage projects Lithium cells, modules,
-                  packs used for cars, trucks, bikes, scooters, forklifts,
-                  golfcarts, etc OffgridSynergy is committed to delivering
-                  reliable, cost-effective, and technically supported sourcing
-                  solutions to international brands, system integrators, and
-                  distributors. With strong local supply chain advantages and
-                  professional service, we help customers reduce procurement
-                  risks and accelerate project delivery.
+                  the world.
                 </p>
                 <Image
                   alt="John Sun - Managing Director of OffgridSynergy"
                   src={directorImg}
+                  style={{ width: 200, height: "auto" }}
                 />
                 <h3>John Sun</h3>
                 <h6>Managing Director of OffgridSynergy</h6>

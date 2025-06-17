@@ -11,28 +11,25 @@ const RequestAQuote = ({noTop,quoteClass}:propsClass) => {
       <section className={`gap ${noTop}`}>
         <div className="container">
           <div
-            className={`request-quote ${quoteClass}`}
+            className={`row request-quote ${quoteClass}`}
             style={{ backgroundImage: `url(${bgImg.src})` }}
           >
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="heading">
-                  <p>Request A Quote</p>
-                  <div className="line"></div>
-                  <h2>
-                    OffgridSynergy specializes in providing high-quality
-                    sourcing services for renewable energy and power components.
-                  </h2>
-                  <h6>
-                    committed to delivering reliable, cost-effective, and
-                    technically supported sourcing solutions to international
-                    brands, system integrators, and distributors.
-                  </h6>
-                </div>
+            <div className="col-lg-6">
+              <div className="heading">
+                <p>Request A Quote</p>
+                <div className="line"></div>
+                <h2>
+                  Not Just a Sourcing Agent — We Are Your Trusted Supply Chain
+                  Partner
+                </h2>
+                <h6>
+                  helping you access reliable manufacturers, optimize solutions,
+                  and ensure smooth delivery from China to the world.
+                </h6>
               </div>
-              <div className="col-lg-6">
-                <HomePageContactForm />
-              </div>
+            </div>
+            <div className="col-lg-6">
+              <HomePageContactForm />
             </div>
           </div>
         </div>

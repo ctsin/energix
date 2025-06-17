@@ -12,11 +12,7 @@ const navMenuData: MenuItem[] = [
     id: 1,
     label: "Home",
     link: "/",
-    hasDropdown: true,
-    subMenu: [
-      { id: 7, label: "Home 1", link: "/" },
-      { id: 8, label: "Home 2", link: "/home-two" },
-    ],
+    hasDropdown: false,
   },
   {
     id: 2,
@@ -30,8 +26,15 @@ const navMenuData: MenuItem[] = [
     link: "#",
     hasDropdown: true,
     subMenu: [
-      { id: 9, label: "Solar Power Equipments", link: "/our-projects" },
-      { id: 10, label: "Electric Power Equipments", link: "/projects-details" },
+      {
+        id: 9,
+        label: "Residential and C&I Energy Storage Systems (ESS)",
+        link: "",
+      },
+      { id: 10, label: "On / Off-grid Inverters", link: "" },
+      { id: 11, label: "Lithium Battery Cell, Modules & Racks", link: "" },
+      { id: 12, label: "Solar Components & Accessories", link: "" },
+      { id: 13, label: "Customized Sourcing Projects", link: "" },
     ],
   },
   {

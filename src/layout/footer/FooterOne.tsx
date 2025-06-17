@@ -1,5 +1,5 @@
 import React from "react";
-import bgImg from "../../../public/assets/img/footer.jpg";
+import bgImg from "../../../public/assets/img/10013.png";
 import LogoIcon from "@/svg/LogoIcon";
 import Link from "next/link";
 import PhoneIcon from "@/svg/PhoneIcon";
@@ -32,6 +32,10 @@ const FooterOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="about-energix">
                 <h5>About OffgridSynergy</h5>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="about-energix">
                 <p>
                   With over 12 years of experience in supply chain and
                   CM(Contract Manufacturer) management, and over 7 years of
@@ -39,9 +43,7 @@ const FooterOne = () => {
                   industries, we have a deep understanding of the entire value
                   chain — from raw material sourcing, production, and inventory
                   control, to order fulfillment, logistics coordination, on-site
-                  commissioning, and after-sales support. Let’s work together to
-                  build efficient, reliable, and scalable supply chains for the
-                  energy transition.
+                  commissioning, and after-sales support.
                 </p>
               </div>
             </div>
@@ -55,9 +57,9 @@ const FooterOne = () => {
                   </i>
                 </div>
                 <div>
-                  <h4>Phone No:</h4>
+                  <h4>WhatsApp</h4>
                   <Link href="callto:+8618576775218">
-                    <p>WhatsApp: +86 18576775218</p>
+                    <p>Phone No. +86 18576775218</p>
                   </Link>
                 </div>
               </div>

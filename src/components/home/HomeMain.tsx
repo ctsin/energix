@@ -13,10 +13,10 @@ const HomeMain = () => {
       <HeroSlider />
       <DomesticSec />
       <SaveEnegryGallarySec />
-      <LatestInstallations classOne="" noBottom="no-bottom" />
+      {/* <LatestInstallations classOne="" noBottom="no-bottom" /> */}
       <WhyUseEnergix bgImg={bgImg} propsClass="" />
       <ProcessSolutionsSec propsClass="gap" />
-      <RequestAQuote noTop="no-top" quoteClass="" />
+      <RequestAQuote noTop="pt-0" quoteClass="" />
     </>
   );
 };

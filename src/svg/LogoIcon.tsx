@@ -7,6 +7,7 @@ const LogoIcon = () => {
       width="104.562"
       height="32.686"
       viewBox="0 0 27.665 8.648"
+      style={{ width: 200, height: "auto" }}
     >
       <g transform="matrix(.26458 0 0 .26458 -8.506 -18.01)">
         <path

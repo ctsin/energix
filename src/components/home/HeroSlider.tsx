@@ -5,7 +5,7 @@ import { Autoplay, Navigation } from "swiper";
 import "swiper/css/bundle";
 import sliderImg1 from "../../../public/assets/img/1.jpg";
 import sliderImg2 from "../../../public/assets/img/2.jpg";
-import sliderImg3 from "../../../public/assets/img/3.jpg";
+import sliderImg3 from "../../../public/assets/img/5.jpg";
 import sliderImg4 from "../../../public/assets/img/4.jpg";
 import useGlobalContext from "@/hooks/use-context";
 const HeroSlider = () => {

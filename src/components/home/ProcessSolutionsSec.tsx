@@ -13,13 +13,9 @@ const ProcessSolutionsSec = ({propsClass}:propsType) => {
       <section className={`process-solutions ${propsClass}`}>
         <div className="container">
           <div className="heading">
-            <p>process and the solutions we can provide</p>
+            <p>How It Works</p>
             <div className="line"></div>
-            <h2>
-              How It Works
-              <br />
-              Simple, Smart, Seamless
-            </h2>
+            <h2>Simple, Smart, Seamless</h2>
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6">

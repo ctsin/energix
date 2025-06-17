@@ -12,8 +12,8 @@ const AboutMain = () => {
       <WellComeToSolarSec />
       <ProcessSolutionsSec propsClass="gap no-top" />
       <SolarEnergySec />
-      <CreativeTeam bgImg={null} />
-      <CompanyHistory />
+      {/* <CreativeTeam bgImg={null} /> */}
+      {/* <CompanyHistory /> */}
     </>
   );
 };

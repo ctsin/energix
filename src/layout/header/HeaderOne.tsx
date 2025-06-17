@@ -36,7 +36,7 @@ const HeaderOne = () => {
                   <i>
                     <LocationTwoIcon />
                   </i>
-                  <p>Hi-Tech Zone, Nanshan Dsictrict, Shenzhen, PRC</p>
+                  <p>Hi-Tech Zone, Nanshan District, Shenzhen, PRC</p>
                 </div>
               </div>
             </div>

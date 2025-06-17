@@ -8,12 +8,12 @@ import WindKinetic from "@/svg/WindKinetic";
 import React from "react";
 import Image from "next/image";
 // import images
-import sun from "../../../public/assets/img/signature.jpg";
-import battaryStorage from "../../../public/assets/img/battery-storage-1.jpg";
+import sun from "../../../public/assets/img/signature.png";
+import SolarStorageEquipments from "../../../public/assets/img/SolarStorageEquipments.jpg";
+import ElectricPowerApplications from "../../../public/assets/img/ElectricPowerApplications.jpg";
 import battaryStorage2 from "../../../public/assets/img/battery-storage-2.jpg";
 import battaryStorage3 from "../../../public/assets/img/battery-storage-3.jpg";
 import battaryStorage4 from "../../../public/assets/img/battery-storage-4.jpg";
-import CountUpContent from "@/elements/counter/CountUpContent";
 import Link from "next/link";
 
 const SaveEnegryGallarySec = () => {
@@ -26,7 +26,7 @@ const SaveEnegryGallarySec = () => {
               <div className="heading">
                 <p>WELCOME TO OFFGRIDSYNERGY</p>
                 <div className="line"></div>
-                <h2>Powering a cleaner tomorrow, today</h2>
+                <h2>End-to-End Sourcing Support You Can Count On</h2>
               </div>
             </div>
             <div className="col-lg-6">
@@ -39,7 +39,7 @@ const SaveEnegryGallarySec = () => {
                 <Image
                   alt="John Sun - Managing Director of OffgridSynergy"
                   src={sun}
-                  style={{ width: "auto", height: "auto" }}
+                  style={{ width: 200, height: "auto" }}
                 />
                 <h3>John Sun</h3>
                 <h6>Managing Director of OffgridSynergy</h6>
@@ -51,12 +51,9 @@ const SaveEnegryGallarySec = () => {
               <div className="battery-storage">
                 <Image
                   alt="chris-hemsworth"
-                  src={battaryStorage}
+                  src={SolarStorageEquipments}
                   style={{ width: "100%", height: "100%" }}
                 />
-                <i>
-                  <BattaryIcon />
-                </i>
                 <div className="battery-storage-text">
                   <Link href="/services">
                     <h3>Battery Storage</h3>
@@ -64,59 +61,17 @@ const SaveEnegryGallarySec = () => {
                   <p>Protecting our environment needn’t cost the earth.</p>
                 </div>
               </div>
-              <div className="row mt-3">
-                <div className="col-md-6">
-                  <div className="battery-storage">
-                    <Image
-                      alt="chris-hemsworth"
-                      src={battaryStorage2}
-                      style={{ width: "100%", height: "100%" }}
-                    />
-                    <i>
-                      <InverterIcon />
-                    </i>
-                    <div className="battery-storage-text">
-                      <Link href="/services">
-                        {" "}
-                        <h3>Inverter</h3>
-                      </Link>
-                      <p>Protecting our environment.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="battery-storage">
-                    <Image
-                      alt="chris-hemsworth"
-                      src={battaryStorage3}
-                      style={{ width: "100%", height: "100%" }}
-                    />
-                    <i>
-                      <WindKinetic />
-                    </i>
-                    <div className="battery-storage-text">
-                      <Link href="/services">
-                        <h3>Electric Power</h3>
-                      </Link>
-                      <p>Protecting our environment.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
             <div className="col-xl-6">
-              <div className="battery-storage two">
+              <div className="battery-storage">
                 <Image
                   alt="chris-hemsworth"
-                  src={battaryStorage4}
+                  src={ElectricPowerApplications}
                   style={{ width: "100%", height: "100%" }}
                 />
-                <i>
-                  <RenewAbleEnergy />
-                </i>
                 <div className="battery-storage-text">
                   <Link href="/services">
-                    <h3>Renewable Energy</h3>
+                    <h3>Battery Storage</h3>
                   </Link>
                   <p>Protecting our environment needn’t cost the earth.</p>
                 </div>

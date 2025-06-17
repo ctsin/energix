@@ -14,10 +14,7 @@ const BreadCamb = ({ title }: propsType) => {
         <div className="container">
           <div className="banner-text">
             <h2>{title}</h2>
-            <p>
-              Your Trusted Sourcing Partner for Advanced Renewable Energy
-              Products
-            </p>
+            <p>Reliable Solar. Global Sourcing. Trusted Partner.</p>
             <ul className="page-breadcrumb">
               <li>
                 <a href="/">

@@ -1,5 +1,6 @@
 import React from "react";
 import checkImg from "../../../public/assets/img/check-mark.png";
+import businessModel from "../../../public/assets/img/business-model.png";
 import Image from "next/image";
 import HomeSolarIcon from "@/svg/HomeSolarIcon";
 import CommercialSolarEnergyTwoIcon from "@/svg/CommercialSolarEnergyTwoIcon";
@@ -13,8 +14,7 @@ const SolarPV = () => {
             <div className="col-lg-6">
               <div className="heading">
                 <h2>
-                  Which Business Model Best Aligns With Your Local Sourcing
-                  Strategy? Let’s Discuss.
+                  Which Model Best Aligns With Your Local Sourcing Strategy?
                 </h2>
               </div>
             </div>
@@ -28,7 +28,18 @@ const SolarPV = () => {
               </div>
             </div>
           </div>
-          <div className="row mt-3">
+          <Image
+            alt="check-mark"
+            src={businessModel}
+            style={{
+              width: "100%",
+              height: "auto",
+              maxWidth: 790,
+              margin: "auto",
+              display: "block",
+            }}
+          />
+          {/* <div className="row mt-3">
             <div className="col-xl-4 col-lg-6">
               <div className="solar-pv">
                 <i>
@@ -101,7 +112,7 @@ const SolarPV = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
