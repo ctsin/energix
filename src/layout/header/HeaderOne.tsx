@@ -75,13 +75,6 @@ const HeaderOne = () => {
             </nav>
             <div className="search-style d-flex align-items-center">
               <button
-                type="button"
-                onClick={toggleSearchBar}
-                className="search-btn"
-              >
-                <SearchIcon />
-              </button>
-              <button
                 onClick={() => setOpenLetterBox(!openLetterBox)}
                 className="header-one-btn newsbox button"
               >

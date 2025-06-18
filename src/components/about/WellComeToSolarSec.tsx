@@ -1,7 +1,7 @@
 import React from "react";
 import directorImg from "../../../public/assets/img/signature.png";
 import about1 from "../../../public/assets/img/about-1.jpg";
-import about2 from "../../../public/assets/img/about-2.jpg";
+import about2 from "../../../public/assets/img/about-2.jpeg";
 import Image from "next/image";
 import ExperienceTwoIcon from "@/svg/ExperienceTwoIcon";
 import CountUpContent from "@/elements/counter/CountUpContent";
@@ -45,23 +45,6 @@ const WellComeToSolarSec = () => {
               <div className="about-img">
                 <Image alt="about" src={about1} />
                 <Image alt="about" className="img-about" src={about2} />
-                <div className="about-two-content">
-                  <div className="d-flex">
-                    <i>
-                      <ExperienceTwoIcon />
-                    </i>
-                    <div>
-                      <div className="d-flex">
-                        <h2 className="timer count-title count-number">
-                          {" "}
-                          <CountUpContent number={18} text="" />{" "}
-                        </h2>
-                        <span>+</span>
-                      </div>
-                      <h6>Years Experience</h6>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

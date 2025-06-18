@@ -429,13 +429,13 @@ button.button {
 .swiper-slide.swiper-slide-active .hero-section:before {
     position: absolute;
     content: "";
-    height: 640px;
-    width: 1040px;
+    height: 650px;
+    width: 1250px;
     border-radius: 417px;
     background-color: #17195acf;
     z-index: 2;
-    transform: rotate(317deg);
-    left: 30px;
+    transform: rotate(317deg) translate(-60%, -90%);
+    left: 50%;
     top: -7%;
     animation-duration: 1s;
     animation-name: fade-down;
@@ -1663,8 +1663,6 @@ header.two button.search-btn svg {
 }
 .arista-square-img {
     position: relative;
-    margin-top: -60px;
-    margin-bottom: -172px;
     z-index: 1;
 }
 .request-quote.two {
@@ -2593,7 +2591,7 @@ ul.pagination li {
 .about-img  img.img-about {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -280px;
 }
 .about-img .about-two-content {
     justify-content: flex-end;

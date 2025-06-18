@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import TimeSaveIcon from "@/svg/TimeSaveIcon";
 import SaveMoneyIcon from "@/svg/SaveMoneyIcon";
 import ObligationIcon from "@/svg/ObligationIcon";
-import videoIcon from "../../../public/assets/img/video.jpg";
+import videoIcon from "../../../public/assets/img/videoCover.png";
 import Image, { StaticImageData } from "next/image";
 import ModalVideo from "react-modal-video";
 interface propsType{

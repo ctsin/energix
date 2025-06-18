@@ -1,4 +1,5 @@
 import PowerIcon from "@/svg/PowerIcon";
+import CommercialSolarEnergyIcon from "@/svg/CommercialSolarEnergyIcon";
 import React from "react";
 import serviceOne from "../../../public/assets/img/services-1.jpg";
 import serviceTwo from "../../../public/assets/img/services-2.jpg";
@@ -57,7 +58,7 @@ const SustainableEnergy = () => {
               <div className="use-energix three">
                 <div className="use-energix-icon">
                   <i>
-                    <PowerIcon />
+                    <CommercialSolarEnergyIcon />
                   </i>
                 </div>
                 <div>

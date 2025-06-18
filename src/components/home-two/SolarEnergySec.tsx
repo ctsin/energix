@@ -189,7 +189,7 @@ const SolarEnergySec = () => {
                 <div className="arista-square-img">
                   <Image
                     alt="arista-square-1"
-                    src={arista}
+                    src={bgImg}
                     style={{ width: "100%", height: "100%" }}
                   />
                 </div>

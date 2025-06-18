@@ -56,9 +56,12 @@ const SaveEnegryGallarySec = () => {
                 />
                 <div className="battery-storage-text">
                   <Link href="/services">
-                    <h3>Battery Storage</h3>
+                    <h3>Solar Power Equipments</h3>
                   </Link>
-                  <p>Protecting our environment needn’t cost the earth.</p>
+                  <p>
+                    Solar Panels, Racks, Cables, Hybrid Inverters, Lithium-Iron
+                    Batteries, etc.
+                  </p>
                 </div>
               </div>
             </div>
@@ -71,9 +74,12 @@ const SaveEnegryGallarySec = () => {
                 />
                 <div className="battery-storage-text">
                   <Link href="/services">
-                    <h3>Battery Storage</h3>
+                    <h3>Electric Power Applications</h3>
                   </Link>
-                  <p>Protecting our environment needn’t cost the earth.</p>
+                  <p>
+                    Lithium ion modules, packs and solutions for electric cars,
+                    etc.
+                  </p>
                 </div>
               </div>
             </div>
