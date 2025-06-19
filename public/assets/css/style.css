@@ -873,14 +873,19 @@ button.button {
 .free-consultation-number span {
     font-size: 30px;
     font-weight: bold;
-    padding: 38px 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2em;
+    height: 2em;
     border-radius: 16px;
     color: white;
 }
 .free-consultation-number h3 {
-    font-size: 26px;
+    font-size: 15px;
     font-weight: bold;
-    line-height: 36px;
+    line-height: 1;
+    margin-bottom: 0;
 }
 .free-consultation {
     border: 2px solid #D9D9D9;
@@ -899,7 +904,7 @@ button.button {
     align-items: center;
     background-color: #FAFAFA;
     justify-content: space-between;
-    padding-left: 50px;
+    padding-left: 1em;
     border-radius: 16px;
     margin-bottom: 26px;
     margin-left: -20px; 
