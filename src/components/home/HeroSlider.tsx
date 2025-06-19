@@ -77,14 +77,6 @@ const HeroSlider = () => {
                             <div className="featured-area-one">
                               <h2>{item?.title}</h2>
                               <h6>{item?.subTitle}</h6>
-
-                              <button
-                                type="button"
-                                onClick={() => setOpenLetterBox(!openLetterBox)}
-                                className="button newsbox"
-                              >
-                                Request a Quote
-                              </button>
                             </div>
                           </div>
                         </div>

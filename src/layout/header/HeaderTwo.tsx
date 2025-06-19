@@ -116,22 +116,6 @@ const HeaderTwo = () => {
                 </li>
               </ul>
             </nav>
-            <div className="search-style d-flex align-items-center">
-              <button
-                onClick={toggleSearchBar}
-                type="button"
-                className="search-btn"
-              >
-                <SearchIcon />
-              </button>
-              <button
-                onClick={() => setOpenLetterBox(!openLetterBox)}
-                className="header-button newsbox button"
-                type="button"
-              >
-                Request a Quote
-              </button>
-            </div>
             <div onClick={toggleSideMenu} className="bar-menu">
               <i className="fa-solid fa-bars"></i>
             </div>

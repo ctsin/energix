@@ -73,14 +73,6 @@ const HeaderOne = () => {
                 ))}
               </ul>
             </nav>
-            <div className="search-style d-flex align-items-center">
-              <button
-                onClick={() => setOpenLetterBox(!openLetterBox)}
-                className="header-one-btn newsbox button"
-              >
-                Request a Quote
-              </button>
-            </div>
             <div onClick={toggleSideMenu} className="bar-menu">
               <i className="fa-solid fa-bars"></i>
             </div>

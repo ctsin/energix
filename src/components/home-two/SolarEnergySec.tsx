@@ -1,13 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
-import bgImg from "../../../public/assets/img/background.jpg";
 import CredentialsIcon from "@/svg/CredentialsIcon";
 import SolarEnergyIcon from "@/svg/SolarEnergyIcon";
 import TechnologiesIcon from "@/svg/TechnologiesIcon";
-import PhoneIcon from "@/svg/PhoneIcon";
-import arista from "../../../public/assets/img/arista-square-1.png";
-import videoTwo from "../../../public/assets/img/video-2.jpg";
 import WhyWorkWithUs3 from "../../../public/assets/img/WhyWorkWithUs-3.jpg";
 import ModalVideo from "react-modal-video";
 import BattaryIconTwo from "@/svg/BattaryIconTwo";
@@ -16,7 +12,6 @@ import CommercialSolarEnergyIcon from "@/svg/CommercialSolarEnergyIcon";
 import useGlobalContext from "@/hooks/use-context";
 
 const SolarEnergySec = () => {
-  const { openLetterBox, setOpenLetterBox } = useGlobalContext();
   const [isOpen, setIsOpen] = useState(false);
   const openVideoModal = () => setIsOpen(!isOpen);
   return (
@@ -145,53 +140,6 @@ const SolarEnergySec = () => {
                   <a href="#">
                     <h4>OEM Branding Support (optional)</h4>
                   </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <div
-            className="request-quote two"
-            style={{ backgroundImage: `url(${bgImg.src})` }}
-          >
-            <div className="row">
-              <div className="col-lg-7">
-                <div className="heading">
-                  <h2>Get in touch to discuss how we can help you!</h2>
-                  <h6>
-                    {`We're`} pleased to be welcoming customers to join us.
-                  </h6>
-                </div>
-                <div className="d-md-flex align-items-center mt-md-5">
-                  <button
-                    onClick={() => setOpenLetterBox(!openLetterBox)}
-                    className="button newsbox"
-                  >
-                    Request a Quote
-                  </button>
-                  <div className="request-quote-info">
-                    <div>
-                      <i>
-                        <PhoneIcon />
-                      </i>
-                    </div>
-                    <div className="d-flex align-items-center mt-2">
-                      <h4>WhatsApp:</h4>
-                      <a href="callto:+8618576775218">
-                        <p>+86 185 76775218</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-5">
-                <div className="arista-square-img">
-                  <Image
-                    alt="arista-square-1"
-                    src={bgImg}
-                    style={{ width: "100%", height: "100%" }}
-                  />
                 </div>
               </div>
             </div>

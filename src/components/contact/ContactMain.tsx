@@ -5,11 +5,10 @@ import Map from './Map';
 
 const ContactMain = () => {
     return (
-        <>
-         <BreadCamb title='Contact Us'/>   
-         <ContactArea/>
-         <Map/>
-        </>
+      <>
+        <BreadCamb title="Contact Us" />
+        <ContactArea />
+      </>
     );
 };
 

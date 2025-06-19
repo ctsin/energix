@@ -61,18 +61,15 @@ const HeroSlider = () => {
                             <div className="featured-area-one">
                               <h2>{item?.title}</h2>
                               <h6>{item?.subTitle}</h6>
-                              <button
-                                type="button"
-                                onClick={() => setOpenLetterBox(!openLetterBox)}
-                                className="button newsbox"
-                              >
-                                Request a Quote
-                              </button>
                             </div>
                           </div>
                           <div className="col-lg-6">
                             <div className="slide-two-img">
-                              <Image alt="img" src={item?.bgImg} style={{ width: "100%", height: "100%" }}/>
+                              <Image
+                                alt="img"
+                                src={item?.bgImg}
+                                style={{ width: "100%", height: "100%" }}
+                              />
                             </div>
                           </div>
                         </div>
