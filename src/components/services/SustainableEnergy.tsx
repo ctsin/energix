@@ -1,7 +1,7 @@
 import PowerIcon from "@/svg/PowerIcon";
 import CommercialSolarEnergyIcon from "@/svg/CommercialSolarEnergyIcon";
 import React from "react";
-import serviceOne from "../../../public/assets/img/services-1.jpg";
+import serviceOne from "../../../public/assets/img/services-3.jpg";
 import serviceTwo from "../../../public/assets/img/services-2.jpg";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,9 +13,9 @@ const SustainableEnergy = () => {
           <div className="heading">
             <p>process and the solutions we can provide</p>
             <div className="line"></div>
-            <h2>Our Products Serve a Wide Range of Applications, including:</h2>
+            <h2>Powerful & Intelligent Energy Storage Solutions</h2>
             <span>
-              Powerful & intelligent energy storage solutions,helping you
+              Our Products serve a wide range of applications, helping you
               maximize your energy potential.
             </span>
           </div>
