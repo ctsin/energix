@@ -87,11 +87,11 @@ const SaveEnegryGallarySec = () => {
           <div className="count-title-text">
             <div className="col-lg-4 col-md-6">
               <i>
-                <SupplierCompliance />
+                <Delivery />
               </i>
               <p style={{ marginTop: "2em" }}>
-                Delivering carefully sourced, high-quality energy components
-                with verified supplier compliance.
+                Leveraging comprehensive market data and analysis to optimize
+                procurement strategies and reduce costs.
               </p>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -105,13 +105,13 @@ const SaveEnegryGallarySec = () => {
             </div>
             <div className="col-lg-4 col-md-6">
               <i>
-                <Delivery />
+                <SupplierCompliance />
               </i>
               <p style={{ marginTop: "2em" }}>
-                Leveraging comprehensive market data and analysis to optimize
-                procurement strategies and reduce costs.
+                Delivering carefully sourced, high-quality energy components
+                with verified supplier compliance.
               </p>
-            </div>
+            </div>{" "}
           </div>
         </div>
       </section>
