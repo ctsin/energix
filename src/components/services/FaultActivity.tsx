@@ -1,7 +1,7 @@
 import CountUpContent from "@/elements/counter/CountUpContent";
-import AnalysedIcon from "@/svg/AnalysedIcon";
-import NetWorkIcon from "@/svg/NetWorkIcon";
-import PantographsIcon from "@/svg/PantographsIcon";
+import Delivery from "@/svg/Delivery";
+import SupplierCompliance from "@/svg/SupplierCompliance";
+import ReduceCost from "@/svg/ReduceCost";
 import React from "react";
 
 const FaultActivity = () => {
@@ -11,7 +11,7 @@ const FaultActivity = () => {
         <div className="count-title-text two">
           <div className="col-lg-4 col-md-6">
             <i>
-              <NetWorkIcon />
+              <SupplierCompliance />
             </i>
             <div className="d-flex align-items-center justify-content-center">
               <h2 className="timer count-title count-number">
@@ -23,7 +23,7 @@ const FaultActivity = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <i>
-              <PantographsIcon />
+              <ReduceCost />
             </i>
             <h2 className="timer count-title count-number">
               <CountUpContent number={3500000} text="" />
@@ -32,7 +32,7 @@ const FaultActivity = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <i>
-              <AnalysedIcon />
+              <Delivery />
             </i>
             <div className="d-flex align-items-center justify-content-center">
               <h2 className="timer count-title count-number">

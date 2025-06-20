@@ -1,8 +1,8 @@
-import AnalysedIcon from "@/svg/AnalysedIcon";
 import BattaryIcon from "@/svg/BattaryIcon";
 import InverterIcon from "@/svg/InverterIcon";
-import NetWorkIcon from "@/svg/NetWorkIcon";
-import PantographsIcon from "@/svg/PantographsIcon";
+import SupplierCompliance from "@/svg/SupplierCompliance";
+import ReduceCost from "@/svg/ReduceCost";
+import Delivery from "@/svg/Delivery";
 import RenewAbleEnergy from "@/svg/RenewAbleEnergy";
 import WindKinetic from "@/svg/WindKinetic";
 import React from "react";
@@ -87,7 +87,7 @@ const SaveEnegryGallarySec = () => {
           <div className="count-title-text">
             <div className="col-lg-4 col-md-6">
               <i>
-                <NetWorkIcon />
+                <SupplierCompliance />
               </i>
               <p style={{ marginTop: "2em" }}>
                 Delivering carefully sourced, high-quality energy components
@@ -96,7 +96,7 @@ const SaveEnegryGallarySec = () => {
             </div>
             <div className="col-lg-4 col-md-6">
               <i>
-                <PantographsIcon />
+                <ReduceCost />
               </i>
               <p style={{ marginTop: "2em" }}>
                 Providing transparent supply chain management for timely and
@@ -105,7 +105,7 @@ const SaveEnegryGallarySec = () => {
             </div>
             <div className="col-lg-4 col-md-6">
               <i>
-                <AnalysedIcon />
+                <Delivery />
               </i>
               <p style={{ marginTop: "2em" }}>
                 Leveraging comprehensive market data and analysis to optimize

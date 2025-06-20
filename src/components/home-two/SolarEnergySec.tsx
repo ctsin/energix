@@ -1,14 +1,14 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import CredentialsIcon from "@/svg/CredentialsIcon";
-import SolarEnergyIcon from "@/svg/SolarEnergyIcon";
-import TechnologiesIcon from "@/svg/TechnologiesIcon";
 import WhyWorkWithUs3 from "../../../public/assets/img/WhyWorkWithUs-3.jpg";
 import ModalVideo from "react-modal-video";
-import BattaryIconTwo from "@/svg/BattaryIconTwo";
-import InvestmentIcon from "@/svg/InvestmentIcon";
-import CommercialSolarEnergyIcon from "@/svg/CommercialSolarEnergyIcon";
+import FactorySourcingMatchmaking from "@/svg/FactorySourcingMatchmaking";
+import OEMBrandingSupport from "@/svg/OEMBrandingSupport";
+import FactoryAuditingVerification from "@/svg/FactoryAuditingVerification";
+import QualityControlInspection from "@/svg/QualityControlInspection";
+import ShippingLogistics from "@/svg/ShippingLogistics";
+import SampleOrderCoordination from "@/svg/SampleOrderCoordination";
 import useGlobalContext from "@/hooks/use-context";
 
 const SolarEnergySec = () => {
@@ -31,7 +31,7 @@ const SolarEnergySec = () => {
               <div className="use-energix two">
                 <div className="use-energix-icon">
                   <i>
-                    <BattaryIconTwo />
+                    <FactorySourcingMatchmaking />
                   </i>
                 </div>
                 <div>
@@ -77,7 +77,7 @@ const SolarEnergySec = () => {
               <div className="use-energix two">
                 <div className="use-energix-icon">
                   <i>
-                    <CommercialSolarEnergyIcon />
+                    <FactoryAuditingVerification />
                   </i>
                 </div>
                 <div>
@@ -91,7 +91,7 @@ const SolarEnergySec = () => {
               <div className="use-energix two mt-xl-5">
                 <div className="use-energix-icon">
                   <i>
-                    <InvestmentIcon />
+                    <SampleOrderCoordination />
                   </i>
                 </div>
                 <div>
@@ -105,7 +105,7 @@ const SolarEnergySec = () => {
               <div className="use-energix two mt-xl-5">
                 <div className="use-energix-icon">
                   <i>
-                    <CredentialsIcon />
+                    <QualityControlInspection />
                   </i>
                 </div>
                 <div>
@@ -119,7 +119,7 @@ const SolarEnergySec = () => {
               <div className="use-energix two mt-xl-5">
                 <div className="use-energix-icon">
                   <i>
-                    <SolarEnergyIcon />
+                    <ShippingLogistics />
                   </i>
                 </div>
                 <div>
@@ -133,7 +133,7 @@ const SolarEnergySec = () => {
               <div className="use-energix two mt-xl-5 mb-0 ">
                 <div className="use-energix-icon">
                   <i>
-                    <TechnologiesIcon />
+                    <OEMBrandingSupport />
                   </i>
                 </div>
                 <div>

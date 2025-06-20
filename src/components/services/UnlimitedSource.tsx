@@ -3,7 +3,7 @@ import BattaryIconTwo from "@/svg/BattaryIconTwo";
 import CommercialSolarEnergyIcon from "@/svg/CommercialSolarEnergyIcon";
 import CredentialsIcon from "@/svg/CredentialsIcon";
 import InvestmentIcon from "@/svg/InvestmentIcon";
-import NetWorkIcon from "@/svg/NetWorkIcon";
+import SupplierCompliance from "@/svg/SupplierCompliance";
 import SolarEnergyIcon from "@/svg/SolarEnergyIcon";
 import TechnologiesIcon from "@/svg/TechnologiesIcon";
 import React from "react";

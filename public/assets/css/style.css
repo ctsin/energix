@@ -561,15 +561,6 @@ button.button {
 .battery-storage.two img {
     height: 674px !important;
 }
-    .battery-storage:before {
-    content: "";
-    position: absolute;
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    border-radius: 16px;
-    opacity: .6;
-}
 .battery-storage-text p {
     color: white;
 }
@@ -3693,7 +3684,7 @@ span#progress-value i {
 ul.link-style li a,.our-blog-text h2,ul.recent-posts li i,ul.recent-posts li a,ul.categories li a,.use-energix a h4:hover,.energize-society img,.sectors img,.sectors a,
 .free-consultation-number span,.blog-text h4,.blog-img img,.button,.button:before,.video img,
 .recent-projects-text h5,.recent-projects-text i,.recent-projects-text i svg,.free-consultation svg,
-.battery-storage:before,.battery-storage i,.battery-storage svg,.recent-projects-text,.our-blog-text-img img,
+.battery-storage i,.battery-storage svg,.recent-projects-text,.our-blog-text-img img,
 .recent-projects-two .slider-nav i,.mail-to a,.social-media li a,.footer-bottom li a,.our-blog-text a,
 .slider-home-1.swiper-carousel .slider-nav.disabled button i,.battery-storage-text,.request-quote-info a p {
       transition: .3s ease-in-out;
