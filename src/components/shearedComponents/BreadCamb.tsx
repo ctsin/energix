@@ -1,5 +1,5 @@
 import React from "react";
-import bgImg from "../../../public/assets/img/banner.jpg";
+import bgImg from "../../../public/assets/img/10015.jpg";
 interface propsType {
   title: string;
 }
@@ -9,7 +9,9 @@ const BreadCamb = ({ title }: propsType) => {
     <>
       <section
         className="banner"
-        style={{ backgroundImage: `url(${bgImg.src})` }}
+        style={{
+          backgroundImage: `url(${bgImg.src})`,
+        }}
       >
         <div className="container">
           <div className="banner-text">

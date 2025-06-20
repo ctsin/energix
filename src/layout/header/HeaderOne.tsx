@@ -1,15 +1,13 @@
 import Link from "next/link";
-import React from "react";
 import MobileMenu from "./MobileMenu";
 import useGlobalContext from "@/hooks/use-context";
-import SearchIcon from "@/svg/SearchIcon";
 import navMenuData from "@/data/menu/menu-data";
 import LogoTwoIcon from "@/svg/LogoTwoIcon";
 import EmailTwoIcon from "@/svg/EmailTwoIcon";
 import LocationTwoIcon from "@/svg/LocationTwoIcon";
 const HeaderOne = () => {
-  const { toggleSideMenu, toggleSearchBar,openLetterBox, setOpenLetterBox } = useGlobalContext();
- 
+  const { toggleSideMenu } = useGlobalContext();
+
   return (
     <>
       <header>
